@@ -35,6 +35,13 @@ vendor.audio_hal.period_multiplier=2
 # Audio hardware
 ro.hardware.audio.primary=alioth
 
+
+# Dex2oat
+dalvik.vm.dex2oat-cpu-set=4,5,6,7
+dalvik.vm.dex2oat-threads=4
+dalvik.vm.image-dex2oat-cpu-set=4,5,6,7
+dalvik.vm.image-dex2oat-threads=4 
+
 # Display
 ro.vendor.display.paneltype=2
 vendor.display.defer_fps_frame_count=2
